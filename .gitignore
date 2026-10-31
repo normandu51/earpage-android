@@ -1,0 +1,13 @@
+# Generated web bundle. Deploy it from EarPageReact with:
+#   npm run sync:native -- --target android
+app/src/main/assets/www/
+
+# Build output and local configuration
+.gradle/
+build/
+app/build/
+local.properties
+.idea/
+.kotlin/
+.DS_Store
+**.DS_Store

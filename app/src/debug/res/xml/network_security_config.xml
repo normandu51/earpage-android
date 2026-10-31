@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Scoped to debug builds. Article images/audio are served by the development
+  media server over http; release builds keep the platform default (cleartext
+  blocked) and must use an https media server.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
